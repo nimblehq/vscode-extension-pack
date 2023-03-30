@@ -1,0 +1,36 @@
+{
+  "name": "nimble-extension-pack",
+  "displayName": "Nimble Extension Pack",
+  "description": "Extensions used by Nimble",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "aliariff.vscode-erb-beautify", 
+    "bungcip.better-toml", 
+    "CraigMaslowski.erb", 
+    "eamodio.gitlens", 
+    "GitHub.copilot", 
+    "github.vscode-github-actions", 
+    "GitHub.vscode-pull-request-github", 
+    "golang.go", 
+    "hashicorp.terraform", 
+    "JakeBecker.elixir-ls", 
+    "mrorz.language-gettext", 
+    "ms-azuretools.vscode-docker", 
+    "ms-edgedevtools.vscode-edge-devtools", 
+    "ms-python.python", 
+    "ms-python.vscode-pylance", 
+    "ms-vscode.makefile-tools", 
+    "neilding.language-liquid", 
+    "pgourlain.erlang", 
+    "Prisma.prisma", 
+    "samuel-pordeus.elixir-test", 
+    "Shopify.ruby-lsp", 
+    "znck.grammarly"
+  ]
+}
