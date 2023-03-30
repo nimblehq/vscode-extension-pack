@@ -1,16 +1,49 @@
-# nimble-extension-pack README
+# Nimble Extension Pack
 
-## Working with Markdown
+Visual Studio Code extensions used at [Nimble](https://nimblehq.co/)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Usage
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Clone the repository
 
-## For more information
+`git clone git@github.com:nimblehq/vscode-extension-pack.git`
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## What's in the folder
 
-**Enjoy!**
+- This folder contains all of the files necessary for your extension pack.
+- `package.json` - this is the manifest file that defines the list of extensions of the extension pack.
+
+## Get up and running straight away
+
+- Press `F5` to open a new window with your extension loaded.
+- Open `Extensions Viewlet` and check your extensions are installed.
+
+## Make changes
+
+- You can relaunch the extension from the debug toolbar after making changes to the files listed above.
+- You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
+
+## License
+
+This project is Copyright (c) 2014 and onwards Nimble. It is free software and may be redistributed under the terms specified in the [LICENSE] file.
+
+[LICENSE]: /LICENSE
+
+## About
+<a href="https://nimblehq.co/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png">
+    <img alt="Nimble logo" src="https://assets.nimblehq.co/logo/light/logo-light-text-160.png">
+  </picture>
+</a>
+
+This project is maintained and funded by Nimble.
+
+We ❤️ open source and do our part in sharing our work with the community!
+See [our other projects][community] or [hire our team][hire] to help build your product.
+
+Want to join? [Check out our Jobs][jobs]!
+
+[community]: https://github.com/nimblehq
+[hire]: https://nimblehq.co/
+[jobs]: https://jobs.nimblehq.co/
