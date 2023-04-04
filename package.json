@@ -2,6 +2,8 @@
   "name": "nimble-extension-pack",
   "displayName": "Nimble Extension Pack",
   "description": "Extensions used by Nimble",
+  "repository": "https://github.com/nimblehq/vscode-extension-pack",
+  "publisher": "nimble",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.76.0"
@@ -9,6 +11,11 @@
   "categories": [
     "Extension Packs"
   ],
+  "icon": "assets/logo-dark-icon-512.png",
+  "galleryBanner": {
+    "color": "#201547",
+    "theme": "dark"
+  },
   "extensionPack": [
     "aliariff.vscode-erb-beautify",
     "bungcip.better-toml",
