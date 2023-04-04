@@ -23,6 +23,12 @@ Clone the repository
 - You can relaunch the extension from the debug toolbar after making changes to the files listed above.
 - You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
 
+## Publishing a New Version
+
+- Install vsce: `npm install -g vsce`.
+- Authenticate vsce: `vsce login nimble`. Use the token from 1Password.
+- Publish the extension pack: `vsce publish`.
+
 ## License
 
 This project is Copyright (c) 2014 and onwards Nimble. It is free software and may be redistributed under the terms specified in the [LICENSE] file.
