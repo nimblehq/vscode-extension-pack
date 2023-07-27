@@ -4,7 +4,7 @@
   "description": "Extensions used by Nimble",
   "repository": "https://github.com/nimblehq/vscode-extension-pack",
   "publisher": "nimble",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -18,7 +18,6 @@
   },
   "extensionPack": [
     "aliariff.vscode-erb-beautify",
-    "bungcip.better-toml",
     "CraigMaslowski.erb",
     "eamodio.gitlens",
     "GitHub.copilot",
@@ -41,6 +40,7 @@
     "samuel-pordeus.elixir-test",
     "shardulm94.trailing-spaces",
     "Shopify.ruby-lsp",
+    "tamasfe.even-better-toml",
     "znck.grammarly"
   ]
 }
